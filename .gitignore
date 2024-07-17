@@ -15,7 +15,6 @@ __pycache__/
 dist/
 build/
 *.manifest
-*.spec
 
 # Database files
 *.db

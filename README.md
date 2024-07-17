@@ -1,7 +1,7 @@
 # Cooketal
 
-Cette application desktop pour Windows, réalisée en Python, permet de gérer ses ingrédients, ses recettes, générer un menu pour une période donnée puis générer la liste d'ingrédients à acheter en fonction du menu.  
-En résumé, cela aide à faire sa liste de courses.
+This desktop application for Windows, written in Python, lets you manage your ingredients and recipes, generate a menu for a given period and then generate a list of ingredients to buy according to the menu.  
+In short, it helps you make your shopping list.
 
 <img src="https://res.cloudinary.com/dvie2gv2x/image/upload/v1721207836/Cooketal/history_view_menu_qa1fks.png" width="30%"></img>
 <img src="https://res.cloudinary.com/dvie2gv2x/image/upload/v1721207835/Cooketal/history_view_ingredients_a0zyki.png" width="30%"></img>
@@ -13,33 +13,33 @@ En résumé, cela aide à faire sa liste de courses.
 <img src="https://res.cloudinary.com/dvie2gv2x/image/upload/v1721207838/Cooketal/ingredients_list_zzjiwg.png" width="30%"></img>
 <img src="https://res.cloudinary.com/dvie2gv2x/image/upload/v1721207836/Cooketal/ingredients_add_iassij.png" width="30%"></img>
 
-## Fonctionnalités générales
+## General features
 
-- **Génération de menus** : Générer un menu pour une période donnée avec des recettes aléatoires parmi celles enregistrées en base de données.
-- **Gestion des recettes** : Ajouter, consulter, modifier et supprimer des recettes.
-- **Gestion des ingrédients** : Ajouter, consulter, modifier et supprimer des ingrédients.
-- **Historique des menus** : Consulter les menus générés précédemment et voir les recettes et ingrédients associés.
-- **Options d'import/export** : Exporter et importer des ingrédients pour les partager avec d'autres utilisateurs.
+- **Menu generation**: Generate a menu for a given period using random recipes from the database.
+- **Recipe management**: Add, consult, modify and delete recipes.
+- **Ingredients management**: Add, consult, modify and delete ingredients.
+- **Menu history**: Consult previously generated menus and view associated recipes and ingredients.
+- **Import/export options**: Export and import ingredients to share with other users.
 
-## Onglets et détails des fonctionnalités
+## Tabs and feature details
 
 1. **Menus** :
-    - **Générer un menu** : Permet de générer un menu pour une période donnée. Les recettes sont choisies de manière aléatoire parmi celles enregistrées. Possibilité de modifier les plats en double-cliquant sur leur nom. Sauvegarder le menu pour le retrouver dans l'historique.
-    - **Historique des menus** : Voir tous les menus générés. Consulter les recettes et les ingrédients nécessaires pour chaque menu.
+    - **Generate menu**: Generates a menu for a given period. Recipes are randomly selected from those already saved. Dishes can be modified by double-clicking on their name. Save the menu for retrieval in the menu history.
+    - **Menu history**: View all generated menus. View recipes and ingredients required for each menu.
 
-2. **Recettes** :
-    - **Liste des recettes** : Consulter toutes les recettes enregistrées. Filtrer les recettes grâce à un champ de recherche full-text. Modifier ou supprimer des recettes.
-    - **Ajouter une recette** : Ajouter une nouvelle recette avec un nom, type de repas, nombre de repas, instructions (optionnel) et ingrédients. Les ingrédients peuvent être ajoutés via une recherche full-text et sélectionnés dans une liste déroulante.
+2. **Recipes** :
+    - **Recipe list**: View all recipes saved. Filter recipes using a full-text search field. Modify or delete recipes.
+    - **Add a recipe**: Add a new recipe with name, meal type, number of meals, instructions (optional) and ingredients. Ingredients can be added via a full-text search and selected from a drop-down list.
 
-3. **Ingrédients** :
-    - **Liste des ingrédients** : Consulter tous les ingrédients enregistrés. Filtrer les ingrédients grâce à un champ de recherche full-text. Modifier ou supprimer des ingrédients.
-    - **Ajouter un ingrédient** : Ajouter un nouvel ingrédient avec son nom et sa catégorie.
+3. **Ingredients** :
+    - **Ingredient list**: View all registered ingredients. Filter ingredients using a full-text search field. Modify or delete ingredients.
+    - **Add a new ingredient** : Add a new ingredient with its name and category.
 
 4. **Options** :
-    - **Exporter** : Exporter la liste des ingrédients dans un fichier texte.
-    - **Importer** : Importer des ingrédients depuis un fichier texte. Les doublons ne seront pas importés. (Note : évitez les accents dans la liste des ingrédients à importer).
+    - **Export**: Export the ingredient list to a text file.
+    - **Import** : Import ingredients from a text file. Duplicates will not be imported. (Note: avoid using accents in the list of ingredients to be imported).
 
-## Technologies et modules utilisés
+## Technologies and modules used
 
 - Python
 - Tkinter
@@ -49,31 +49,31 @@ En résumé, cela aide à faire sa liste de courses.
 - SQLite3
 - Pillow
 
-## Télécharger
+## Download
 
-Disponible sur [lucaschaplain.design/creations](https://www.lucaschaplain.design/creations)
+Available at [lucaschaplain.design/creations](https://www.lucaschaplain.design/creations)
 
 ## Build
 
-1. Clôner le dépôt
-2. Installer les requirements dans un environnement virtuel
-3. Exécuter `pyinstaller ./cooketal.spec` (pour générer le .exe) ou exécuter `python ./main.py` (pour lancer l'application)
+1. Close repository
+2. Install requirements in a virtual environment
+3. Run `pyinstaller ./cooketal.spec` (to generate the .exe) or run `python ./main.py` (to launch the application).
 
-Si la base de données n'est pas présente, elle sera alors créée lors du premier lancement.
+If the database is not present, it will be created on the first launch.
 
-## Améliorations à venir
+## Upcoming improvements
 
-- Importer des ingrédients avec des caractères accentués.
-- Ajouter, modifier et supprimer des catégories d'ingrédients et changer leur ordre d'affichage.
-- Possibilité de ne pas insérer de recette pour un jour ou moment spécifié lors de la génération d'un menu.
-- Relier les recettes à des saisons (été, hiver, etc.).
-- Importer et exporter des recettes, des menus et autres entités nécessaires.
+- Import ingredients with accented characters.
+- Add, modify and delete ingredient categories and change their display order.
+- Option not to insert a recipe for a specified day or time when generating a menu.
+- Link recipes to seasons (summer, winter, etc.).
+- Import and export recipes, menus and other necessary entities.
 
-## Contribuer
+## Contribute
 
-Les contributions sont les bienvenues !  
-Veuillez soumettre une pull request ou ouvrir une issue pour discuter des changements que vous souhaitez apporter.
+Contributions are welcome!  
+Please submit a pull request or open an issue to discuss the changes you would like to make.
 
 ## License
 
-Ce projet est sous licence MIT. [Voir la license](LICENSE) pour plus de détails.
+This project is licensed under the MIT license. [See license](LICENSE) for more details.
