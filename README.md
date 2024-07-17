@@ -69,6 +69,11 @@ If the database is not present, it will be created on the first launch.
 - Link recipes to seasons (summer, winter, etc.).
 - Import and export recipes, menus and other necessary entities.
 
+## Side note
+
+This is my first Python GUI app, made in about a week, so you can find mistakes.  
+Also, this was meant to be a personal app only but as a matter of fact I thought this could be useful to somebody else.
+
 ## Contribute
 
 Contributions are welcome!  

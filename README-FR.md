@@ -69,6 +69,11 @@ Si la base de données n'est pas présente, elle sera alors créée lors du prem
 - Relier les recettes à des saisons (été, hiver, etc.).
 - Importer et exporter des recettes, des menus et autres entités nécessaires.
 
+## Note
+
+Il s'agit de ma première application GUI en Python, réalisée en une semaine environ, donc vous pouvez trouver des erreurs.  
+De plus, c'était censé être une application personnelle, mais en fait, j'ai pensé qu'elle pourrait être utile à d'autres.
+
 ## Contribuer
 
 Les contributions sont les bienvenues !  
