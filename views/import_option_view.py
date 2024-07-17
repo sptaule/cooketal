@@ -49,7 +49,7 @@ class ImportOptionView:
     def load_file(self):
         file_path = filedialog.askopenfilename(filetypes=[("Text files", "*.txt")])
         if file_path:
-            with open(file_path, 'r') as file:
+            with open(file_path, 'r', encoding='utf-8') as file:
                 names = [line.strip() for line in file if line.strip()]
             self.imported_ingredients = self.insert_names(names)
 
