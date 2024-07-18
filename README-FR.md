@@ -59,7 +59,8 @@ Disponible sur [lucaschaplain.design/creations](https://www.lucaschaplain.design
 2. Installer les requirements dans un environnement virtuel
 3. Exécuter `pyinstaller ./cooketal.spec` (pour générer le .exe) ou exécuter `python ./main.py` (pour lancer l'application)
 
-Si la base de données n'est pas présente, elle sera alors créée lors du premier lancement.
+Si la base de données n'est pas présente, elle sera alors créée lors du premier lancement.  
+Vous pouvez télécharger une liste d'ingrédients depuis la section Release.
 
 ## Améliorations à venir
 

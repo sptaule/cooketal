@@ -59,7 +59,8 @@ Available at [lucaschaplain.design/creations](https://www.lucaschaplain.design/c
 2. Install requirements in a virtual environment
 3. Run `pyinstaller ./cooketal.spec` (to generate the .exe) or run `python ./main.py` (to launch the application).
 
-If the database is not present, it will be created on the first launch.
+If the database is not present, it will be created on the first launch.  
+You can download an ingredient list from the Release section.
 
 ## Upcoming improvements
 
